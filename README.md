@@ -1,6 +1,8 @@
+MIT License - see the LICENSE file for details.
+
 # Todo App
 
-A simple and efficient command-line todo list application that helps you manage your daily tasks.
+Simple and efficient command-line todo list application that helps manage daily tasks.
 
 ## Features
 
@@ -8,7 +10,7 @@ A simple and efficient command-line todo list application that helps you manage 
 - List all tasks
 - Mark tasks as complete
 - Delete tasks
-- Simple and intuitive command-line interface
+- Simple command-line interface
 
 ## Installation
 
@@ -18,41 +20,35 @@ git clone https://github.com/lembitlindau/todo.git
 cd todo
 ```
 
-2. Make sure you have Python 3.6 or higher installed
+2. Install Python 3.6 or higher
 
-3. Install the required dependencies:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Usage Examples
 
-Here are some common commands to get you started:
-
-1. Add a new task:
+1. Add task:
 ```bash
-python todo.py add "Complete the project documentation"
+python todo.py add "Write documentation"
 ```
 
-2. List all tasks:
+2. List tasks:
 ```bash
 python todo.py list
 ```
 
-3. Mark a task as complete:
+3. Complete task:
 ```bash
-python todo.py complete 1  # where 1 is the task ID
+python todo.py complete 1
 ```
 
-4. Delete a task:
+4. Delete task:
 ```bash
-python todo.py delete 1  # where 1 is the task ID
+python todo.py delete 1
 ```
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Contributions welcome! Feel free to submit Pull Requests.
