@@ -1,5 +1,3 @@
-MIT License - see the LICENSE file for details.
-
 # Todo App
 
 Simple and efficient command-line todo list application that helps manage daily tasks.
@@ -52,3 +50,7 @@ python todo.py delete 1
 ## Contributing
 
 Contributions welcome! Feel free to submit Pull Requests.
+
+## License
+
+MIT License - see the LICENSE file for details.
